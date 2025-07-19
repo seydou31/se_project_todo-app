@@ -1,6 +1,6 @@
 # Simple Todo App
 
-Give a brief description of the project here. Feel free to give it a different name.
+The app allows users to add tasks, mark them as completed,  and delete them. 
 
 ## Functionality
 
@@ -8,11 +8,10 @@ Give a more detailed explanation of the project and its functionality.
 
 ## Technology
 
-Give a description of the technologies and techniques used. Pictures, GIFs, or screenshots that detail the project features are recommended.
+In this app we use HTML, CSS, JavaScript to make the app interactive. we also make use of modules to improve code readability.
 
 ## Deployment
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE 
 [Todo app](https://seydou31.github.io/se_project_todo-app/)
