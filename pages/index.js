@@ -1,4 +1,4 @@
-import FormValidation from "../components/FormValidation.js";
+import FormValidation from "../components/FormValidator.js";
 import Todo from "../components/Todo.js";
 import { initialTodos, validationConfig } from "../utils/Constants.js";
 import Section from "../components/Section.js";
