@@ -1,9 +1,9 @@
-import FormValidation from "../Components/FormValidation.js";
-import Todo from "../Components/Todo.js";
-import { initialTodos, validationConfig } from "../Utils/Constants.js";
-import Section from "../Components/Section.js";
-import PopupWithForm from "../Components/PopupWithForm.js";
-import TodoCounter from "../Components/TodoCounter.js";
+import FormValidation from "../components/FormValidation.js";
+import Todo from "../components/Todo.js";
+import { initialTodos, validationConfig } from "../utils/Constants.js";
+import Section from "../components/Section.js";
+import PopupWithForm from "../components/PopupWithForm.js";
+import TodoCounter from "../components/TodoCounter.js";
 
 const addTodoButton = document.querySelector(".button_action_add");
 const addTodoPopup = document.querySelector("#add-todo-popup");
