@@ -2,7 +2,7 @@ import FormValidation from "../Components/FormValidation.js";
 import Todo from "../Components/Todo.js";
 import { initialTodos, validationConfig } from "../Utils/Constants.js";
 import Section from "../Components/Section.js";
-import PopupWithForm from "../Components/tempPopupWithForm.js";
+import PopupWithForm from "../Components/PopupWithForm.js";
 import TodoCounter from "../Components/TodoCounter.js";
 
 const addTodoButton = document.querySelector(".button_action_add");
