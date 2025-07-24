@@ -3,6 +3,7 @@ export default class TodoCounter {
     this._element = document.querySelector(selector);
     this._completed = todos.filter((todo) => todo.completed).length;
     this._total = todos.length;
+    this._updateText();
   }
 
   updateCompleted = (increment) => {
@@ -27,8 +28,5 @@ export default class TodoCounter {
     this._element.textContent = `Showing ${this._completed} out of ${this._total} completed`;
   }
 
-  initialCounter(){
-    this._element.textContent = `Showing ${this._completed} out of ${this._total} completed`;
-  }
 }
 

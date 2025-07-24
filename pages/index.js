@@ -55,5 +55,4 @@ addToDoPopupForm.setEventListener();
 
 const newValidationForm = new FormValidation(validationConfig, addTodoForm);
 section.renderItems();
-todoCounter.initialCounter();
 newValidationForm.enableValidation();
