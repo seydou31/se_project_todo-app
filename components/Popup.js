@@ -15,7 +15,7 @@ export default class Popup {
 
   _handleEscapeClose = (evt) => {
     if (evt.key === "Escape") {
-      this._popupElement.classList.remove("popup_visible");
+      this.close();
     }
   };
 
