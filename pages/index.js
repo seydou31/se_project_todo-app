@@ -1,4 +1,4 @@
-import FormValidation from "../components/FormValidator.js";
+import FormValidator from "../components/FormValidator.js";
 import Todo from "../components/Todo.js";
 import { initialTodos, validationConfig } from "../utils/Constants.js";
 import Section from "../components/Section.js";
@@ -35,7 +35,7 @@ const addToDoPopupForm = new PopupWithForm({
   handleSubmitForm: (values) => {
     const todoElement = generateTodo(values);
     section.addItem(todoElement);
-    addTodoPopup.classList.remove("popup_visible");
+    addToDoPopupForm.close()
     newValidationForm.resetValidation();
     todoCounter.updateTotal(true);
   },
@@ -53,6 +53,6 @@ addTodoButton.addEventListener("click", () => {
 });
 addToDoPopupForm.setEventListener();
 
-const newValidationForm = new FormValidation(validationConfig, addTodoForm);
+const newValidationForm = new FormValidator(validationConfig, addTodoForm);
 section.renderItems();
 newValidationForm.enableValidation();
